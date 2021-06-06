@@ -72,6 +72,7 @@ comments_btn.addEventListener('click', function () {
     }
     if (FilterSensitive(content)) {
         alert('评论内容存在敏感词！')
+	return
     }
 
     let obj = {
