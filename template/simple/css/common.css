@@ -258,7 +258,7 @@ footer .footer_wrap a {
   width: 70%;
   height: 100vh;
   bottom: 0;
-  background: #fff;
+  background: var(--Primary-bg);
   z-index: 9999;
   transition: all 0.3s;
 }
