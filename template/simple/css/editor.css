@@ -50,3 +50,12 @@ h1,h2,h3 {
 .prettyprint {
   border: 0 !important;
 }
+.tag {
+  color: #F92672 !important;	
+}
+.atn{
+  color: #A6E22E!important;	
+}
+.atv{
+  color: #E6DB74!important;	
+}
