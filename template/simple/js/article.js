@@ -31,7 +31,7 @@ comments_btn.addEventListener('click', function () {
     let author = document.querySelector('#author').value
     let email = document.querySelector('#email').value
     let Personal_website = document.querySelector('#Personal_website').value
-    let content = document.querySelector('#content').value
+    let content = document.querySelector('#content').value.replace(/^\s+|\s+$/g,"")
     let aid = document.querySelector('#aid').value
     if (author == '') {
         alert('名字不能为空')
