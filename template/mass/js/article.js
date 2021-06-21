@@ -28,6 +28,7 @@ $('.comments_form_btn').on('click', function () {
     let email = $('#email').val()
     let Personal_website = $('#The_user_web_site').val()
     let content = $('#comments_form_content').val()
+ 	content = content.replace(/^\s+|\s+$/g,"")
     let aid = $('#aid').val();
     if (author == '') {
         layer.open({
